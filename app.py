@@ -16,7 +16,7 @@ def home():
     
         skills=["Python", "Java",  "Hardware Prototyping"]
     )
-    @app.route("/projects")
+@app.route("/projects")
 def projects_page():
     return "<h1>Projects Page Coming Soon</h1>"
 
@@ -27,3 +27,4 @@ def contact_page():
 if __name__ == "__main__":
 
     app.run(debug=True)
+
